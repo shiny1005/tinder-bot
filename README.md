@@ -1,4 +1,11 @@
-# TinderBotz 🔥🤖
+# TinderBotz 🔥 Tinder Flame Icon
+
+<p align="center">
+  <img src="https://logos-world.net/wp-content/uploads/2020/09/Tinder-Symbol.png" alt="Tinder Flame Logo" width="180">
+  <br><br>
+  <img src="https://logos-world.net/wp-content/uploads/2020/09/Tinder-Logo.png" alt="Tinder Logo" width="300">
+</p>
+
 **Automated Tinder web bot & scraper using Selenium (mostly historical / educational now)**
 
 **⚠️ Important – March 2026 status ⚠️**  
@@ -11,7 +18,7 @@ Use **only for learning purposes** on throwaway/test accounts. Expect to spend s
 ## Project 🧩
 
 <p align="center">
-  <h3 align="center">TINDERBOT AND PROFILE SCRAPER (Web version)</h3>
+  <h3 align="center">TINDERBOT AND PROFILE SCRAPER (Web version) 🔥</h3>
 
   <p align="center">
     Tinder web automation & data scraper (Python + Selenium).<br>
@@ -40,7 +47,7 @@ Use **only for learning purposes** on throwaway/test accounts. Expect to spend s
 
 <!-- ABOUT THE PROJECT -->
 <a id="about-the-project"></a>
-## About the Project ✨
+## About the Project ✨ 🔥
 
 This project was created to experiment with **web automation** and **scraping** using Python + Selenium.
 
@@ -55,7 +62,7 @@ Originally it could:
 - Handle some pop-ups & notifications
 
 Many of these features **no longer work reliably** due to:
-- Major UI redesigns (2024–2026)
+- Major UI redesigns (2024–2026, including Liquid Glass aesthetic and edge-to-edge photos)
 - Stronger anti-automation (Arkose/Cloudflare challenges)
 - AI-based behaviour detection
 - Removal/weakening of several old endpoints/selectors
