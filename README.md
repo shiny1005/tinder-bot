@@ -1,6 +1,8 @@
-# Tinderbotz
+# Tinderbotz 🔥🤖
 **Consider giving a ⭐ if you like the project!**
-## Project
+
+<a id="project"></a>
+## Project 🧩
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -25,40 +27,42 @@
 </p>
 
 <!-- TABLE OF CONTENTS -->
-## Table of Contents
+<a id="table-of-contents"></a>
+## Table of Contents 🧭
 
-* [About the Project](#about-the-project)
-  * [Built With](#built-with)
-  * [Breaking Record](#breaking-record)
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
-* [Usage](#usage-of-tinderbot)
-  * [Documentation](DOCUMENTATION.md)
-  * [Demo](#demonstration)
-* [Example Data Analysis](#example-data-analysis)
-* [Avoiding the Ban](#how-to-avoid-the-ban)
-* [Support the Repository](#support-the-repository)
-* [Other Tinder Repositories](#other-tinder-repositories)
-* [Disclaimer](#disclaimer)
+- **📌 About the Project**: [About the Project](#about-the-project)
+  - **🛠️ Built With**: [Built With](#built-with)
+  - **🏆 Breaking Record**: [Breaking Record](#breaking-record)
+- **🚀 Getting Started**: [Getting Started](#getting-started)
+  - **✅ Prerequisites**: [Prerequisites](#prerequisites)
+  - **📦 Installation**: [Installation](#installation)
+- **🤖 Usage**: [Usage](#usage-of-tinderbot)
+  - **📚 Documentation**: [DOCUMENTATION.md](DOCUMENTATION.md)
+  - **🎬 Demo**: [Demo](#demonstration)
+- **📊 Example Data Analysis**: [Example Data Analysis](#example-data-analysis)
+- **🛡️ Avoiding the Ban**: [Avoiding the Ban](#how-to-avoid-the-ban)
+- **💖 Support the Repository**: [Support the Repository](#support-the-repository)
+- **🧰 Other Tinder Repositories**: [Other Tinder Repositories](#other-tinder-repositories)
+- **⚠️ Disclaimer**: [Disclaimer](#disclaimer)
 
 <!-- ABOUT THE PROJECT -->
-## About the Project
+<a id="about-the-project"></a>
+## About the Project ✨
 **IMPORTANT: Starring the project indicates shows your appreciation and will result in new features being added!**</br>
 </br>
 This project started with the motivation of learning web automation further and scraping with Python.</br>
 I managed to succesfully create a bot that could: </br>
 
-* Open a browser and login to Tinder.com
-* Setting a custom location for **FREE** (which is normally a paid-for-***Tinder Plus***-feature)
-* Setting profile settings and preferences, such as distance radius, minimum and maximum age, sexuality.
-* Accept all notifications and dismiss pop-ups
-* Swiping x number of profiles left or right
-* Scraping data of the profiles displayed, including, yet not limited to, name, age, bio, images, ...
-* Sending personalized messages to your matches
-* Sending you social media cards, like Instagram, Snapchat, Phonenumber and Facebook
-* Sending GIFS and songs
-* Unmatching
+- 🌐 Open a browser and login to Tinder.com
+- 📍 Setting a custom location for **FREE** (which is normally a paid-for-***Tinder Plus***-feature)
+- ⚙️ Setting profile settings and preferences, such as distance radius, minimum and maximum age, sexuality.
+- 🔔 Accept all notifications and dismiss pop-ups
+- 👈👉 Swiping x number of profiles left or right
+- 🧾 Scraping data of the profiles displayed, including, yet not limited to, name, age, bio, images, ...
+- 💬 Sending personalized messages to your matches
+- 🪪 Sending you social media cards, like Instagram, Snapchat, Phonenumber and Facebook
+- 🎶 Sending GIFS and songs
+- ❌ Unmatching
 
 If you feel like diving right in, the [quickstart.py](https://github.com/frederikme/TinderBot/blob/master/quickstart.py) will help you be right on track.</br>
 If you're new to coding and just want the script to automatically like, the [auto_swipe.py](https://github.com/frederikme/TinderBot/blob/master/auto_swipe.py) would be what you're looking for!</br>
@@ -66,16 +70,18 @@ If you're new to coding and just want the script to automatically like, the [aut
 </br>
 ***Enjoy! :)***</br>
 
-***Youtube Video***
+***Youtube Video 🎥***
 [![Getting +1000 Matches on Tinder in 24 Hours by Building a Tinderbot!](https://img.youtube.com/vi/qCgKlCi6YRI/0.jpg)](https://www.youtube.com/watch?v=qCgKlCi6YRI)
 
+<a id="built-with"></a>
 ### Built with
 
 * [Python](https://www.python.org/)
 * [Selenium](https://selenium.dev)
 * [Undetected-Chromedriver](https://github.com/ultrafunkamsterdam/undetected-chromedriver)
 
-### Breaking Record
+<a id="breaking-record"></a>
+### Breaking Record 🏆
 **I broke the world record most matches using this script!**</br>
 Reached 1000 matches in the first 24hours.</br>
 Currently at 30000 matches!</br>
@@ -87,13 +93,16 @@ Currently at 30000 matches!</br>
 </p>
 
 <!-- Getting Started -->
-## Getting Started
-### Prerequisites
+<a id="getting-started"></a>
+## Getting Started 🚀
+<a id="prerequisites"></a>
+### Prerequisites ✅
 
 - Environment running python 3.x
 - Tinder account with Google or Facebook login enabled
 
-### Installation
+<a id="installation"></a>
+### Installation 📦
 #### Github
 1. Clone or download the project
 2. Install the required packages
@@ -101,11 +110,13 @@ Currently at 30000 matches!</br>
 pip3 install -r requirements.txt
 ```
 
-## Usage of Tinderbot
-### Features
+<a id="usage-of-tinderbot"></a>
+## Usage of Tinderbot 🤖
+### Features ✨
 Features of Tinderbot as demonstrated belowed can be found here: **[Tinderbot features](https://github.com/frederikme/TinderBot/blob/master/DOCUMENTATION.md)**</br>
 
-### Demonstration
+<a id="demonstration"></a>
+### Demonstration 🎬
 #### Setting some Profile settings
 <img src="https://user-images.githubusercontent.com/60892381/99513887-682e7480-298b-11eb-810f-caae7424a792.gif"></src>
 
@@ -118,7 +129,8 @@ Features of Tinderbot as demonstrated belowed can be found here: **[Tinderbot fe
 #### Sending personalized messages to your matches
 <img src="https://user-images.githubusercontent.com/60892381/94997724-43ce3280-05ad-11eb-8a94-0a66f0afbf93.gif"></src>
 
-## Example Data Analysis
+<a id="example-data-analysis"></a>
+## Example Data Analysis 📊
 When scraping geomatches or your own matches, you can start doing some pretty cool stuff with that data.
 A few examples are: 
 
@@ -132,7 +144,8 @@ You can also start calculating what an 'average' tinderprofile would look like.<
 You can for example check the average number of words a bio consists of or the average number of images a user has.
 <img src="https://user-images.githubusercontent.com/60892381/94479341-f03a9e00-01d4-11eb-9a10-70a8aa8208ea.png"></src>
 
-## How to Avoid the Ban
+<a id="how-to-avoid-the-ban"></a>
+## How to Avoid the Ban 🛡️
 This small section will explain how their bot detection works and how you can avoid getting banned.</br>
 
 ### 1) Go easy with newly created profiles
@@ -161,19 +174,22 @@ Your profile cannot look in any way like those spambots. Therefore a few things 
 #### 6.3) Write a good bio, preferably with a minimum of 100 characters
 #### 6.4) Add at least 3-4 images, preferably more
 
-## Support the Repository
+<a id="support-the-repository"></a>
+## Support the Repository 💖
 Feel free to make a pull request and contribute to this project.</br>
 If you feel like buying me a drink:
 * [Paypal](https://paypal.me/frederikmees)
 * [Patreon](https://www.patreon.com/frederikme)
 * [Buy Me A Coffee](https://www.buymeacoffee.com/frederikme)
 
-## Other Tinder Repositories
+<a id="other-tinder-repositories"></a>
+## Other Tinder Repositories 🧰
 ![Imgur](https://imgur.com/hSVjccD.jpg)
 - [Analysis of Tinder Likes from "Likes Sent"](https://github.com/acarter881/tinder_likes_data) <br>
 This repository uses Selenium, pandas, BeautifulSoup, Excel, and more to glean meaningful insights from Tinder profile cards.
 
-## Disclaimer
+<a id="disclaimer"></a>
+## Disclaimer ⚠️
 Using automated software on Tinder is against community guidelines and might get your account banned.</br>
 
 Also for the section **data mining**: scraping profiles is not only against Tinder's policies, but it's also against the law in many places.</br>
