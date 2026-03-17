@@ -1,103 +1,93 @@
-# TinderBotz 🔥 Tinder Flame Icon
-
 <p align="center">
-  <img src="https://logos-world.net/wp-content/uploads/2020/09/Tinder-Symbol.png" alt="Tinder Flame Logo" width="180">
-  <br><br>
-  <img src="https://logos-world.net/wp-content/uploads/2020/09/Tinder-Logo.png" alt="Tinder Logo" width="300">
+  <h1 align="center">Tinder Auto Bot</h1>
+  <h3 align="center">Experimental Python + Selenium automation & scraping tool for Tinder.com</h3>
 </p>
 
-**Automated Tinder web bot & scraper using Selenium (mostly historical / educational now)**
-
-**⚠️ Important – March 2026 status ⚠️**  
-This project has seen **very limited maintenance since ~2023–2024**.  
-Tinder has made **major frontend changes**, strengthened bot/fraud detection (more Cloudflare/Arkose challenges, device fingerprinting, behaviour analysis), and rolled out many AI-powered features + safety tools in 2025–2026.  
-→ **Most functions (especially auto-swiping & mass messaging) are currently broken or result in very quick bans.**  
-Use **only for learning purposes** on throwaway/test accounts. Expect to spend significant time fixing selectors & bypassing detection.
-
-<a id="project"></a>
-## Project 🧩
-
 <p align="center">
-  <h3 align="center">TINDERBOT AND PROFILE SCRAPER (Web version) 🔥</h3>
-
-  <p align="center">
-    Tinder web automation & data scraper (Python + Selenium).<br>
-    Originally created for educational exploration of browser automation.
-    <br /><br />
-    <a href="https://github.com/frederikme/TinderBotz/blob/master/DOCUMENTATION.md"><strong>Explore the docs »</strong></a>
-    ·
-    <a href="https://github.com/frederikme/TinderBotz/issues">Report Issue / Ask for help</a>
-  </p>
+  <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/Selenium-4+-orange?style=for-the-badge&logo=selenium&logoColor=white" alt="Selenium"/>
+  <img src="https://img.shields.io/badge/undetected--chromedriver-Enabled-red?style=for-the-badge" alt="Undetected Chromedriver"/>
+  <img src="https://img.shields.io/badge/Status-Experimental-yellow?style=for-the-badge" alt="Status"/>
+  &nbsp;
+  <img src="https://img.shields.io/github/license/shiny1005/tinder-auto-bot?style=for-the-badge" alt="License"/>
 </p>
 
-<!-- TABLE OF CONTENTS -->
-## Table of Contents 🧭
+<br/>
 
-- [About the Project](#about-the-project)
-  - [Built With](#built-with)
-- [🚨 Current Status – 2026](#current-status--2026)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-  - [Documentation](#documentation)
-- [How to Avoid (or at Least Delay) Bans](#how-to-avoid-or-at-least-delay-bans)
-- [Alternatives in 2026](#alternatives-in-2026)
-- [Disclaimer & Legal Warning](#disclaimer--legal-warning)
+## ⚠️ Important Disclaimer
 
-<!-- ABOUT THE PROJECT -->
-<a id="about-the-project"></a>
-## About the Project ✨ 🔥
+**This is an experimental, educational project only.**  
+Tinder (Match Group) strictly prohibits automation, bots, scraping, and any form of non-human interaction per their [Terms of Service](https://policies.tinder.com/terms).  
 
-This project was created to experiment with **web automation** and **scraping** using Python + Selenium.
+Using this tool **can and likely will** result in:  
+- Permanent account bans  
+- IP blocks  
+- CAPTCHA/Arkose/Cloudflare challenges  
+- Legal notices (in extreme cases)
 
-Originally it could:
+**Use at your own risk.** The author is not responsible for any consequences. This repo is for learning web automation with Selenium only — **do not use on real accounts for production swiping/messaging**.
 
-- Log in to tinder.com (Google / Facebook / phone)
-- Set custom location (paid feature bypass – **very unreliable now**)
-- Change age range, distance, gender preferences
-- Auto-swipe left/right (with random delays)
-- Scrape profiles: name, age, bio, photos, distance, interests…
-- Send templated / semi-personalized messages to matches
-- Handle some pop-ups & notifications
+<br/>
 
-Many of these features **no longer work reliably** due to:
-- Major UI redesigns (2024–2026, including Liquid Glass aesthetic and edge-to-edge photos)
-- Stronger anti-automation (Arkose/Cloudflare challenges)
-- AI-based behaviour detection
-- Removal/weakening of several old endpoints/selectors
+## ✨ Original Features (as built)
 
-<a id="built-with"></a>
-### Built With
+- Login via Google, Facebook, or phone number
+- Bypass/custom set location (paid Passport feature attempt – **unreliable now**)
+- Adjust age range, distance, gender preferences
+- Auto-swipe (left/right) with human-like random delays
+- Scrape detailed profile data: name, age, bio, photos (URLs), distance, interests/tags, etc.
+- Send templated or semi-personalized opening messages to new matches
+- Handle common pop-ups, notifications, and basic anti-bot obstacles
 
-- Python 3.x
-- Selenium
-- undetected-chromedriver (helps a bit, but detection is much stronger in 2026)
+<br/>
 
-<a id="current-status--2026"></a>
-## 🚨 Current Status – 2026
+<p align="center">
+  <img src="https://techcrunch.com/wp-content/uploads/2026/03/Tinder-revamp2026.png?w=1024" alt="Modern Tinder UI 2026" width="70%"/>
+  <br/><em>Current Tinder interface (2026) – edge-to-edge photos, Liquid Glass aesthetic, new modes like Astrology & Events</em>
+</p>
 
-- Last substantial code changes: ~2022–2023
-- Minor patches/PRs: up to ~2024
-- Many open issues about **"not working anymore"**, captchas, element not found (2025–2026)
-- Recent Tinder updates (AI matching "Chemistry", Astrology mode, video speed dating, stronger content moderation & bot detection – announced early 2026) broke many selectors & login flows
-- **Mass swiping / messaging almost always leads to shadowban or permanent ban within hours/days** — even with heavy randomization & proxies
+<br/>
 
-→ This repo is now mainly **educational / historical**.  
-Feel free to fork & try to revive parts of it — contributions welcome, but success rate is low.
+## 📸 Screenshots
 
-<!-- GETTING STARTED -->
-## Getting Started 🚀
+<p align="center">
+  <img src="images/login-screen.png" alt="Tinder login page" width="32%"/>
+  <img src="images/profile-scrape-example.png" alt="Scraped profile data output" width="32%"/>
+  <img src="images/auto-swipe-demo.gif" alt="Auto-swiping in action" width="32%"/>
+</p>
 
-### Prerequisites ✅
+<p align="center">
+  <em>Login flow • Extracted profile info • Swiping demo (use your own GIF/screenshots!)</em>
+</p>
 
-- Python 3.9–3.12 recommended
-- Google / Facebook / Apple login capable Tinder account (**do NOT use your main account**)
-- Recent Chrome browser
+<br/>
 
-### Installation 📦
+## Why Many Features Are Broken in 2026
+
+Tinder has heavily invested in anti-automation since 2024:
+
+- Complete UI redesign (edge-to-edge, dynamic cards, new "For You", Modes like Astrology/Music/Double Date)
+- Stronger client-side detection (behavior fingerprinting, mouse/keyboard patterns)
+- Arkose Labs / Cloudflare Turnstile challenges
+- API endpoint changes & obfuscation
+- AI-driven bot detection (unusual swipe speeds, session patterns)
+
+**undetected-chromedriver** helps evade basic checks, but advanced detection still catches most bots quickly.
+
+<br/>
+
+## 🛠️ Built With
+
+- **Python 3.8+**
+- **Selenium** (webdriver automation)
+- **undetected-chromedriver** (stealth mode to reduce fingerprinting)
+- Optional: requests (for photo downloads), beautifulsoup4 (fallback parsing), fake-useragent
+
+<br/>
+
+## 🚀 Quick Setup (For Educational Use Only)
 
 1. Clone the repo
    ```bash
-   git clone https://github.com/frederikme/TinderBotz.git
-   cd TinderBotz
+   git clone https://github.com/shiny1005/tinder-auto-bot.git
+   cd tinder-auto-bot
