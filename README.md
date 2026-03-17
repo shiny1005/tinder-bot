@@ -76,5 +76,5 @@ Tinder has heavily invested in anti-automation since 2024:
 
 1. Clone the repo
    ```bash
-   git clone https://github.com/shiny1005/tinder-auto-bot.git
-   cd tinder-auto-bot
+   git clone https://github.com/shiny1005/tinder-bot.git
+   cd tinder-bot
