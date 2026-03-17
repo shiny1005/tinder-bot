@@ -48,19 +48,6 @@ Using this tool **can and likely will** result in:
 
 <br/>
 
-## 📸 Screenshots
-
-<p align="center">
-  <img src="images/login-screen.png" alt="Tinder login page" width="32%"/>
-  <img src="images/profile-scrape-example.png" alt="Scraped profile data output" width="32%"/>
-  <img src="images/auto-swipe-demo.gif" alt="Auto-swiping in action" width="32%"/>
-</p>
-
-<p align="center">
-  <em>Login flow • Extracted profile info • Swiping demo (use your own GIF/screenshots!)</em>
-</p>
-
-<br/>
 
 ## Why Many Features Are Broken in 2026
 
