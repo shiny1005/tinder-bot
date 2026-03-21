@@ -15,9 +15,10 @@
 <br/>
 
 ## ⚠️ Important Disclaimer
+## ⚠️ Important Disclaimer
 
 **This is an experimental, educational project only.**  
-Tinder (Match Group) strictly prohibits automation, bots, scraping, and any form of non-human interaction per their [Terms of Service](https://policies.tinder.com/terms).  
+Tinder.com (Match Group) strictly prohibits automation, bots, scraping, and any form of non-human interaction per their [Terms of Service](https://policies.tinder.com/terms).  
 
 Using this tool **can and likely will** result in:  
 - Permanent account bans  
